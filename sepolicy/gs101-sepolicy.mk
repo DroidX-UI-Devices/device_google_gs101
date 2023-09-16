@@ -49,5 +49,8 @@ ifeq ($(TARGET_PKVM_ENABLED),true)
 BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/pkvm
 endif
 
+# turbo adapter
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
+
 # Health HAL
 BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/health
